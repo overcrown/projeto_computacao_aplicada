@@ -1,0 +1,16 @@
+.emphasis_container {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #BABFC5;
+}
+
+.image_emphasis {
+    max-width: 3em;
+    max-height: 4em;
+}
+
+/* title */
+.emphasis_hover_title {
+    color: var(--primary-color-hover);
+}

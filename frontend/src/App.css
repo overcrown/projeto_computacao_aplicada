@@ -5,18 +5,18 @@
   --header-height: 4.5em;
   --nav-width: 12.5em;
   /* colors */
-  --primary-color: #000;
-  --primary-color-hover: #A30C2B;
-  --first-color: #81B640;
-  --first-color-light: #1e1e1e;
-  --hue-color: #1b1b1b;
-  --light-color: #FFF;
+  --primary-color: #ffbc0d;
+  --primary-color-hover: #292929;
+  --first-color: #FFF;
+  --first-color-light: #6f6f6f;
+  --hue-color: #363636;
+  --light-color: #606060;
   /* tipografia */
   --title-text-font: 'Tillana', sans-serif;
   --subtitle-text-font: 'Tillana', sans-serif;
   --body-font: 'Roboto', sans-serif;
   --title-font-size: 1.75em;
-  --subtitle-font-size: 1.125rem;
+  --subtitle-font-size: 1.12rem;
   --small-font-size: 1em;
   --big-font-size: 2.25em;
   --line-height: 1.5em;
@@ -44,5 +44,4 @@ html {
 
 body {
   font-family: var(--body-font);
-  background-color: var(--primary-color);
 }

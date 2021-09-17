@@ -1,5 +1,5 @@
 import './styles.css'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo_p.png'
 
 export default function Header() {
 
@@ -22,7 +22,7 @@ export default function Header() {
                     </li>
                     <li>
                         <a href="#contact">
-                            Contato
+                            Fale Conosco
                         </a>
                     </li>
                 </ul>
