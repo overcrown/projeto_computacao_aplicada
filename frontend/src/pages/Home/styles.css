@@ -1,0 +1,39 @@
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 15em;
+}
+
+.emphasis_hover_title {
+    color: var(--primary-color);
+    font-size: var(--big-font-size);
+}
+
+.emphasis_title {
+    color: var(--primary-color-hover);
+    font-size: 3em;
+}
+
+
+.circle {
+    width: 15em;
+    height: 15em;
+    margin-top: -30em;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    z-index: 1;
+    
+}
+
+#delivery {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
