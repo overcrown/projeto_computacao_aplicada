@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import NavBar from '../../components/NavBar'
 import './styles.css'
 import Image from '../../assets/emphasis.png'
+import Footer from '../../components/Footer'
+import Boot from '../../components/Boot'
 
 export default class Home extends Component {
 
@@ -9,11 +11,12 @@ export default class Home extends Component {
         return (
             <body>
                 <NavBar />
-                <main>
 
+                <Boot />
+                <main>
                     <section id="home">
                         <div>
-                            <h1 className="emphasis_title">Onde há <br />VONTATE,</h1>
+                            <p className="emphasis_title">Onde há<br /> VONTATE,</p>
                             <h1 className="emphasis_hover_title">há sempre <br />um AMARELINHO</h1>
                         </div>
                         <div>
@@ -24,22 +27,24 @@ export default class Home extends Component {
                     </section>
 
                     <section id="delivery">
-                        <h1>Delivery</h1>
-                        <h2>Peça pelo nosso...</h2>
+                        <h1 className="delivery_title">Delivery</h1>
+                        <h2 className="delivery_subtitle">Peça pelo nosso...</h2>
 
                         <div className="delivery_itens">
                             <div>
-                                <i class='bx bxl-android delivery_icon' />
-                                <i class='bx bxl-apple delivery_icon' />
-                                <h3>Aplicativo</h3>
+                                <i className="uil uil-android-alt delivery_icon margin" />
+                                <i className="uil uil-apple-alt delivery_icon margin" />
+                                <h3 className="delivery_option">Aplicativos</h3>
                             </div>
                             <div>
-                                <i class='bx bxs-pointer delivery_icon' />
-                                <h3>Site</h3>
+                                <i className="uil uil-globe delivery_icon" />
+                                <h3 className="delivery_option">Site</h3>
                             </div>
                         </div>
                     </section>
 
+                    <Footer />
+    
                 </main>
             </body>
         )

@@ -11,19 +11,14 @@ export default function Header() {
                 </div>
                 <ul>
                     <li>
-                        <a href="#home">
-                            Home
-                        </a>
-                    </li>
-                    <li>
                         <a href="#delivery">
                             Delivery
                         </a>
                     </li>
                     <li>
-                        <a href="#contact">
-                            Fale Conosco
-                        </a>
+                        <button className="acess_button">
+                            Entrar
+                        </button>
                     </li>
                 </ul>
             </nav>

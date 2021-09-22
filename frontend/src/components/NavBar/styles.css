@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     padding: 1em 5em;
     background-color: #FFF;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 8%);
 }
 
 nav ul {
@@ -26,10 +26,28 @@ nav a {
 
 nav a:hover {
     color: var(--primary-color);
+}
+
+nav a:hover, .acess_button, nav img:hover  {
     transform: scale(1.02);
+    cursor: pointer;
 }
 
 nav img {
     max-width: 5em;
     max-height: 5em;
+}
+
+.acess_button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: var(--title-text-font);
+    font-weight: 600;
 }
